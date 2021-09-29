@@ -2,7 +2,7 @@ terraform {
   backend "azurerm" {
     resource_group_name  = "smcp-terraform"
     storage_account_name = "smcpterraform"
-    container_name       = "terraform-files"
+    container_name       = "github-terrafrom"
     key                  = "terraformgithubexample.tfstate"
   }
 }
